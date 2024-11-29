@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="help/style.css">    
+    <title>courierservicepayment</title>
+    
+    <style>
+.payment-methods {
+    display: flex;
+    flex-direction: column;
+}
+
+.payment-button {
+    background-color: transparent;
+    border: 2px solid #ff0000;
+    color: #ff0000;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 19px;
+}
+
+.payment-button:hover {
+    background-color: #ffe740;
+    color: white;
+}
+
+.loader-container {
+            width: 350px;
+            height: 10px;
+            left: 10px;
+            border: 1px solid #ddd;
+            overflow: hidden;
+            position: relative;
+            border-radius: 10px;
+        }
+        .loader {
+            width: 10%; height: 100%;
+            background: linear-gradient(90deg, #11ff00, #11ff00, #11ff00);
+            animation: loader 100s linear infinite; box-shadow: 0 0 25px #11ff00;
+        }
+
+        @keyframes loader {
+            0% { width: 10%; }
+            100% { width: 100%; } 
+        
+        }
+    </style>
+  </head>
+  
+  <body>
+      <div class="border border-2 mt-4 p-2 mx-2 text-center shadow">
+        <img src="https://i.postimg.cc/xj50ChYP/image-search-1732855782820.gif" style="width: 200px">
+      <br>
+      <h6>We are verifying your details. </h6><br>
+      <h4 class="text-success">Please wait.......</h4>
+      
+      <br>
+      <div class="loader-container">
+        <div class="loader"></div>
+    </div>
+    <br>
+      <h6>Time Remaining</h6>
+      <br>
+     <div class="payment-methods">
+           <centre><a href="1.html" class="payment-button"><span style="color: black;">Done</span></a></centre></div>
+      <br>
+    </div>
+      <br>  <br>  <br>  <br>
+    
+  </body>
+
+</html>
